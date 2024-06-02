@@ -1,0 +1,85 @@
+body {
+    background-image: url('./NewFolder/jap.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-radius: 20px; 
+    padding: 2rem 2.5rem;
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    width: 15rem;
+    height: 2rem;
+    background: linear-gradient(284deg, rgba(0,0,0,0.2) 100%, rgba(240,236,227,1) 100%);
+    position: absolute;
+    border-radius: 50%;
+    top: 220px;
+}
+
+.prof-pic {
+    height: 210px;
+    width: 210px;
+    border-radius: 200px; 
+    margin-bottom: 4rem;
+    z-index: 1;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: grid; 
+    align-items: center; 
+    gap: 1.5rem;
+}
+
+.pangalan {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-shadow: 0 0 10px black;
+}
+
+.student {
+    font-weight: 300;
+    opacity: 70%;
+}
+
+.social {
+    display: flex; 
+    justify-content: center;
+    gap: 2rem;
+}
+
+.fab {
+    cursor: pointer;
+}
+
+.profile {
+    transform: translateZ(50px); 
+    display: flex; 
+    justify-content: center;
+}
+
+
